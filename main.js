@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
 
 // Copy IP Button
 function copyIP() {
-  navigator.clipboard.writeText('servern/aerror').then(() => {
+  navigator.clipboard.writeText('MeteorCraftOfficial.aternos.me').then(() => {
       alert('Server IP copied to clipboard!');
   });
 }
