@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeteorCraft - Minecraft Server</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="meteor"></div>
+        <h1>Welcome to MeteorCraft</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MeteorCraft</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#join">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Explore, Build, Conquer</h1>
+        <p>Join MeteorCraft, the ultimate Minecraft adventure!</p>
+        <button class="cta-button" onclick="copyIP()">Get Started</button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About MeteorCraft</h2>
+        <p>MeteorCraft is a life steal server that has alot of unique content. Build your own kingdoms today! </p>
+        <!--<img src="about-image.png" alt="Minecraft world" class="section-image"> -->
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <h2>Server Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Custom Worlds</h3>
+                <p>Explore beautifully crafted, one-of-a-kind worlds.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Unique Plugins</h3>
+                <p>Enjoy exclusive gameplay enhancements and plugins.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Friendly Community</h3>
+                <p>Join a vibrant and supportive group of players.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="section join-section">
+        <h2>Join Us!</h2>
+        <p>Server IP: <strong>play.meteorcraft.com</strong></p>
+        <button class="cta-button" onclick="copyIP()">Copy IP</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MeteorCraft. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
